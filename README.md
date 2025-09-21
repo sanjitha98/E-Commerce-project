@@ -22,30 +22,30 @@ HTTP Requests: Axios
 
 Installation
 
-Backend Setup
+1.Backend Setup
+  cd backend
+  npm install
 
-cd backend
-npm install
-Create .env file:
-DB_URI=mongodb://localhost:27017/ecommerce
-PORT=5000
+2.Create .env file:
+  DB_URI=mongodb://localhost:27017/ecommerce
+  PORT=1000
 
-Start backend server:
-nodemon server.js
+3.Start backend server:
+  nodemon server.js
 
-Frontend Setup
-cd frontend
-npm install
+4.Frontend Setup
+  cd frontend
+  npm install
 
-Configure API base URL in .env:
+5.Configure API base URL in .env:
+  VITE_API_URL=http://localhost:1000
 
-REACT_APP_API_URL=http://localhost:5000
-Start frontend server:
-npm run dev
+6.Start frontend server:
+  npm run dev
 
 API Endpoints
 
-Products
+1.Products
 
 GET /api/products – Get all products
 GET /api/products/:id – Get product by ID
@@ -53,7 +53,7 @@ POST /api/products – Add new product
 PUT /api/products/:id – Update product by ID
 DELETE /api/products/:id – Delete product by ID
 
-Users 
+2.Users 
 
 POST /api/auth/register – Register new user
 POST /api/auth/login – Login user
