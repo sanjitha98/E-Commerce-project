@@ -30,8 +30,8 @@ This application allows users to browse, filter, and manage products, with admin
 
 ### 1. Backend Setup
 
-cd backend
-npm install
+ cd backend
+ npm install
 
 ### 2.Create .env file:
   DB_URI=mongodb://localhost:27017/ecommerce
@@ -54,38 +54,38 @@ npm install
 
 # 1.Products
 
-GET /api/products – Get all products
-GET /api/products/:id – Get product by ID
-POST /api/products – Add new product
-PUT /api/products/:id – Update product by ID
-DELETE /api/products/:id – Delete product by ID
+# GET /api/products – Get all products
+# GET /api/products/:id – Get product by ID
+# POST /api/products – Add new product
+# PUT /api/products/:id – Update product by ID
+# DELETE /api/products/:id – Delete product by ID
 
 # 2.Users 
 
-POST /api/auth/register – Register new user
-POST /api/auth/login – Login user
-GET /api/auth/profile – Get user profile
+# POST /api/auth/register – Register new user
+# POST /api/auth/login – Login user
+# GET /api/auth/profile – Get user profile
 
 ## Usage
 
-Open the frontend on http://localhost:5173
-Browse products or perform admin actions (add/edit/delete)
-Filter products by category
+# Open the frontend on http://localhost:5173
+# Browse products or perform admin actions (add/edit/delete)
+# Filter products by category
 
 ## Database Models
 
-User: email, password, created_at
-Product: name, description, price, category, countInStock, image, created_at
-Category: name, description, created_at
-Order (optional): user_id, products, total_price, status, created_at
+# User: email, password, created_at
+# Product: name, description, price, category, countInStock, image, created_at
+# Category: name, description, created_at
+# Order (optional): user_id, products, total_price, status, created_at
 
-# Testing
+## Testing
 
-Use Postman or any API client to test endpoints.
+# Use Postman or any API client to test endpoints.
 
 # About
 
-This project demonstrates a full-stack e-commerce catalog using React for frontend, Node.js/Express for backend, and MongoDB for data storage. Ideal for learning modern web development concepts.
+# This project demonstrates a full-stack e-commerce catalog using React for frontend, Node.js/Express for backend, and MongoDB for data storage. Ideal for learning modern    web development concepts.
 
 
 
