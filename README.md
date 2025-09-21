@@ -52,7 +52,7 @@ This application allows users to browse, filter, and manage products, with admin
 
 ### API Endpoints
 
-# 1.Products
+## 1.Products
 
  GET /api/products – Get all products
  GET /api/products/:id – Get product by ID
@@ -60,7 +60,7 @@ This application allows users to browse, filter, and manage products, with admin
  PUT /api/products/:id – Update product by ID
  DELETE /api/products/:id – Delete product by ID
 
-# 2.Users 
+## 2.Users 
 
  POST /api/auth/register – Register new user
  POST /api/auth/login – Login user
